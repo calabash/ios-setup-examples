@@ -1,0 +1,36 @@
+# vim and emacs
+(.*/)?\#[^/]*\#$
+*.swp
+
+# binaries
+*.ipa
+*.app
+*.dSYM
+
+# Mac OS X
+.DS_Store
+__MACOSX
+
+# ruby/calabash/cucumber
+.irb-history
+.irbrc-*
+.bundle
+*.gem
+screenshots
+*screenshot*.png
+.ruby-version
+.pry-history
+
+# Xcode 4+
+*.xcodeproj/*.mode*
+*.xcodeproj/*.perspective*
+*.xcodeproj/*.pbxuser
+*.xcodeproj/xcuserdata
+*.xcodeproj/project.xcworkspace/xcuserdata
+*.xcuserdatad
+*.xcworkspace/xcshareddata/*.xccheckout
+*.xccheckout
+
+## Build products
+build
+
