@@ -15,6 +15,12 @@
 		F55F92991BD7A26A00C15CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55F92971BD7A26A00C15CD1 /* LaunchScreen.storyboard */; };
 		F55F92A41BD7A26A00C15CD1 /* SetupExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F55F92A31BD7A26A00C15CD1 /* SetupExampleTests.m */; };
 		F55F92AF1BD7A26A00C15CD1 /* SetupExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F55F92AE1BD7A26A00C15CD1 /* SetupExampleUITests.m */; };
+		F55F92E11BD7B15400C15CD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55F92901BD7A26A00C15CD1 /* ViewController.m */; };
+		F55F92E21BD7B15400C15CD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F55F928D1BD7A26A00C15CD1 /* AppDelegate.m */; };
+		F55F92E31BD7B15400C15CD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F55F928A1BD7A26A00C15CD1 /* main.m */; };
+		F55F92E61BD7B15400C15CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55F92971BD7A26A00C15CD1 /* LaunchScreen.storyboard */; };
+		F55F92E71BD7B15400C15CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F55F92951BD7A26A00C15CD1 /* Assets.xcassets */; };
+		F55F92E81BD7B15400C15CD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55F92921BD7A26A00C15CD1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,7 @@
 		F55F92AA1BD7A26A00C15CD1 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55F92AE1BD7A26A00C15CD1 /* SetupExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetupExampleUITests.m; sourceTree = "<group>"; };
 		F55F92B01BD7A26A00C15CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55F92EC1BD7B15400C15CD1 /* SetupExample-cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SetupExample-cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +76,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F55F92A71BD7A26A00C15CD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55F92E41BD7B15400C15CD1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,6 +108,7 @@
 				F55F92861BD7A26A00C15CD1 /* SetupExample.app */,
 				F55F929F1BD7A26A00C15CD1 /* XCTests.xctest */,
 				F55F92AA1BD7A26A00C15CD1 /* UITests.xctest */,
+				F55F92EC1BD7B15400C15CD1 /* SetupExample-cal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -196,6 +211,23 @@
 			productReference = F55F92AA1BD7A26A00C15CD1 /* UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		F55F92DF1BD7B15400C15CD1 /* SetupExample-cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F55F92E91BD7B15400C15CD1 /* Build configuration list for PBXNativeTarget "SetupExample-cal" */;
+			buildPhases = (
+				F55F92E01BD7B15400C15CD1 /* Sources */,
+				F55F92E41BD7B15400C15CD1 /* Frameworks */,
+				F55F92E51BD7B15400C15CD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SetupExample-cal";
+			productName = SetupExample;
+			productReference = F55F92EC1BD7B15400C15CD1 /* SetupExample-cal.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -232,6 +264,7 @@
 			projectRoot = "";
 			targets = (
 				F55F92851BD7A26A00C15CD1 /* SetupExample */,
+				F55F92DF1BD7B15400C15CD1 /* SetupExample-cal */,
 				F55F929E1BD7A26A00C15CD1 /* XCTests */,
 				F55F92A91BD7A26A00C15CD1 /* UITests */,
 			);
@@ -263,6 +296,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F55F92E51BD7B15400C15CD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55F92E61BD7B15400C15CD1 /* LaunchScreen.storyboard in Resources */,
+				F55F92E71BD7B15400C15CD1 /* Assets.xcassets in Resources */,
+				F55F92E81BD7B15400C15CD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -289,6 +332,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F55F92AF1BD7A26A00C15CD1 /* SetupExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55F92E01BD7B15400C15CD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F55F92E11BD7B15400C15CD1 /* ViewController.m in Sources */,
+				F55F92E21BD7B15400C15CD1 /* AppDelegate.m in Sources */,
+				F55F92E31BD7B15400C15CD1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +532,30 @@
 			};
 			name = Release;
 		};
+		F55F92EA1BD7B15400C15CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SetupExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sh.calab.SetupExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F55F92EB1BD7B15400C15CD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SetupExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sh.calab.SetupExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -514,6 +591,15 @@
 			buildConfigurations = (
 				F55F92BA1BD7A26A00C15CD1 /* Debug */,
 				F55F92BB1BD7A26A00C15CD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F55F92E91BD7B15400C15CD1 /* Build configuration list for PBXNativeTarget "SetupExample-cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F55F92EA1BD7B15400C15CD1 /* Debug */,
+				F55F92EB1BD7B15400C15CD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
