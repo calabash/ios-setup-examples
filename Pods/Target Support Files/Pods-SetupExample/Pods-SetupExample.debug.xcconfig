@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Calabash"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Calabash"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "CFNetwork" -force_load $(PODS_ROOT)/calabash/calabash.framework/calabash
+PODS_ROOT = ${SRCROOT}/Pods
